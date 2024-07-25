@@ -1065,7 +1065,7 @@ width: 90%;
 
 
 
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
     .navbar{
         margin: 0px;
         padding: 4px;
