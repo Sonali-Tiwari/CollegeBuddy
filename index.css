@@ -1073,6 +1073,9 @@ width: 90%;
     .logo img{
         width: 40vw;
     }
+    .hero{
+        height: 100%;
+    }
     .hero h1{
         font-size: 11vw;
     }
