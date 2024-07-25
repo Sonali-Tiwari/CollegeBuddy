@@ -1074,8 +1074,8 @@ width: 90%;
         width: 40vw;
     }
     .hero{
-        height: 90vh;
-        /* height: 100%; */
+        /* height: ; */
+        height: 100%;
     }
     .hero h1{
         font-size: 11vw;
