@@ -269,7 +269,7 @@ line-height: 24.48px; */
 
 #feedbacks {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Uxum-Grotesque';
     font-size: 4vw;
     margin: 30px 0px;
@@ -1236,4 +1236,57 @@ footer p{
     width: 100%;
     font-size: 3.9vw;
 }
+}
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background: #f2f2f2;
+} */
+ .feed{
+
+ 
+display: grid;
+/* height: 90vh; */
+place-items: center;
+text-align: center;
+
+ }
+.slider{
+  max-width: 2100px;
+  display: flex;
+  flex-direction: row;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  /* height: 50vh;
+  width: 70vw; */
+  background: #fff;
+}
+.slider .card .img{
+  /* height: 50vh;
+  width: 70vw; */
+  height: 100%;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
 }
